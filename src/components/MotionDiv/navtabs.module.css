@@ -1,0 +1,194 @@
+.about {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.mainbuttons {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+
+
+}
+
+/*! Buttcons - v0.1 */
+.butticons {
+    color: #000;
+    margin-left: 30px;
+    display: flex;
+    gap: 10px;
+    font-size: large;
+    cursor: pointer;
+    transition: all 450ms ease-in-out;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.active {
+        background-color: #1b74e4;
+        color: white;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    }
+
+
+.contenedor {
+    width: 90%;
+    border-radius: 25px;
+    position: absolute;
+    top: 80px;
+    
+}
+
+.burger {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+
+}
+
+.linea {
+
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin: 5px auto;
+    transition: all 0.5s ease-in-out;
+    background-color: #130695;
+
+
+}
+
+.estLineas {
+    border-radius: 50%;
+    padding: 15px;
+    margin-top: -3rem;
+}
+
+.fondoFlechas {
+    float: right;
+}
+
+.burger.open .linea:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+}
+
+.burger.open .linea:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.open .linea:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+
+
+.contenedor {
+    width: 85%;
+}
+
+.contenidoo {
+    margin-top: 30px;
+
+}
+
+.navEscritorio {
+    display: none;
+}
+
+
+@media (min-width: 880px) {
+    .contenidoo {
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+        height: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contenidoo {
+        margin-top: 300px;
+        width: 70%;
+    }
+
+    .contenedor {
+        width: 95%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .contenidoo {
+        margin-top: 300px;
+        width: 60%;
+
+    }
+
+    .contenedor {
+        display: none;
+
+    }
+
+    .sectionEscritorio {
+        width: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        
+        
+    }
+
+    .navEscritorio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        width: 144px;
+        margin-top: 300px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+        position: sticky;
+        top: 20px;
+        
+    }
+
+    .navEscritorio ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 20px;
+    }
+
+    .iconTextContainer{
+        width: 84px;
+        height: 84px;
+        background-color: #f3f6f6;
+        color: #333;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    
+    
+    .iconTextContainer i {
+        font-size: 25px;
+    }
+    .iconTextContainer p{
+        font-size: 13px;
+    }
+    
+}

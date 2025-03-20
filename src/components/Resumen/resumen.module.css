@@ -1,0 +1,196 @@
+/* ESTILOS CONTENEDOR MAIN*/
+.MainResumen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.mainTitle {
+    width: 80%;
+    margin-top: 3rem;
+}
+
+.mainTitle h1 {
+    font-weight: 700;
+    font-size: 36px;
+
+}
+
+/* ESTILOS EDUCACION*/
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 40px;
+    
+
+}
+
+.title h2 {
+    
+    font-size: 30px;
+}
+
+.title i {
+    font-size: 30px;
+    color: rgb(44, 64, 150);
+}
+
+.contTarjetas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.tarjeta {
+    border-radius: 15px;
+    width: 100%;
+    padding: 10px 30px;
+    margin: 15px;
+}
+
+.tarjeta h3 {
+    font-size: 22px;
+}
+
+.tarjeta h3 span {
+    font-size: 20px;
+    color: #44566c;
+}
+
+.tarjeta p {
+    font-size: 16px;
+    color: #44566c;
+}
+
+.tarjetas-0 {
+    background-color: #fff4f4;
+}
+
+.tarjetas-1 {
+    background-color: #eef5fa;
+}
+
+.tarjetas-2 {
+    background-color: #fff4f4;
+}
+
+.tarjetas-3 {
+    background-color: #eef5fa;
+}
+
+/* ESTILOS EXPERIENCIA*/
+
+/*Estilos Skills/habilidades*/
+.contSkills {
+    margin-top: 40px;
+    background-color: #f8fbfb;
+    width: 80%;
+    margin-bottom: 40px;
+}
+.contSkills h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.contLogos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    
+}
+
+.imgCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #eef5fa;
+    transition: all .5s ease-in-out;
+}
+
+.imgCont img {
+    width: 50px;
+    height: 50px;
+}
+/*Bordes logos*/
+.logo-Html {
+    border: #f06529 5px solid;
+    
+}
+.logo-Css {
+    border: #672cca 5px solid;
+    
+}
+.logo-TailwindCSS {
+    border: #21ecf5 5px solid;
+    
+}
+.logo-Sass {
+    border: #cc6699 5px solid;
+    
+}
+.logo-Git {
+    border: #f34f29 5px solid;
+    
+}
+.logo-JavaScript {
+    border: #f0db4f 5px solid;
+    
+}
+.logo-React {
+    border: #61dafb 5px solid;
+    
+}
+.logo-Vite {
+    border: #9575CD 5px solid;
+    
+}
+
+/*Hover logos*/
+.logo-Html:hover {
+    box-shadow: 3px 7px 15px 14px #f06529;
+    border: none;
+    
+    
+}
+.logo-Css:hover {
+    box-shadow: 3px 7px 15px 14px #672cca;
+    
+}
+.logo-TailwindCSS:hover {
+    box-shadow: 3px 7px 15px 14px #21ecf5;
+    
+}
+.logo-Sass:hover {
+    box-shadow: 3px 7px 15px 14px #cc6699;
+    
+}
+.logo-Git:hover {
+    box-shadow: 3px 7px 15px 14px #f34f29;
+    
+}
+.logo-JavaScript:hover {
+    box-shadow: 3px 7px 15px 14px #f0db4f;
+    
+}
+.logo-React:hover {
+    box-shadow: 3px 7px 15px 14px #61dafb;
+    
+}
+.logo-Vite:hover {
+    box-shadow: 3px 7px 15px 14px #9575CD;
+    
+}

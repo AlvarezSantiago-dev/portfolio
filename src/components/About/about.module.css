@@ -1,0 +1,105 @@
+.MainAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.description {
+    margin-top: 3rem;
+    width: 85%;
+    text-align: justify;
+}
+.description h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+.description p{
+    font-size: 17px;
+    font-weight: 500px;
+    color: #44566c;
+}
+.subTitle{
+    text-align: left;
+    width: 85%;
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.contTarjetas{
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px 15px;
+    margin-bottom: 30px;
+}
+.card {
+    width: 90%;
+    background-color: rgba(190, 0, 0, 0.226);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    
+}
+
+.contLogo{
+
+display: flex;
+justify-content: center;
+align-items: space-between;
+margin-top: 2rem;
+
+}
+.logotipo i{
+    font-size: 52px;
+    
+}
+.logotipo-1{
+    color: #F0DB4F;
+    
+}
+.logotipo-2{
+    color: #61dbfb;
+}
+
+.contTexto{
+grid-column: span 4 / span 4;
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: center;
+width: 90%;
+}
+
+.contTexto h3{
+font-size: 22px;
+text-transform: capitalize;
+font-weight: 500;
+line-height: 1.5;
+margin-bottom: 10px;
+color: #000;
+}
+.contTexto p{
+    font-size: 18px;
+    color: #44566c;
+    text-align: left;
+    font-weight: 500;
+}
+
+.card:nth-child(1){
+    background-color: #fff4f4;
+}
+.card:nth-child(2){
+    background-color: #eef5fa;
+}
+.card:nth-child(3){
+    background-color: #eef5fa;
+}
+.card:nth-child(4){
+    background-color: #fff4f4;
+}

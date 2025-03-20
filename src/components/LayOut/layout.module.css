@@ -1,0 +1,13 @@
+.mainapp {
+    width: 85%;
+}
+
+@media (min-width: 1200px) {
+    .mainapp {
+        width: 95%;
+        
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+    }
+}
