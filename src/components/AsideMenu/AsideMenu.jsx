@@ -17,10 +17,12 @@ const [info, setinfo] = useState(personalInfo)
 return (
 //aside
     <aside className={styles.asidestyles}>
-        <img className={styles.carucha} src="../../../public/perfile-photo/WhatsApp Image 2024-10-30 at 6.46.08 AM.jpeg" alt="" />
+        
+        <img className={styles.photo} src="../../../public/perfile-photo/posible-perfil.jpg" alt="" />
+        
         <h4 className={styles.name}>Santiago Ezequiel Alvarez</h4>
         <div>
-            <p className={styles.occupation}>Desarrollador FrontEnd</p>
+            <p className={styles.occupation}>Desarrollador Frontend</p>
         </div>
             <div className={styles.mainredes}> 
                 <li>

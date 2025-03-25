@@ -1,37 +1,71 @@
-.mainContact{
+.contact {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: start;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    
+}
+.contact h1 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    background-color: #fff;
-    border-radius: 25px;
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border: 1px solid #ddd;
+    height: 800px;
+    justify-content: space-around;
+    
 }
-.formContact{
-    display: flex;
-    flex-direction: column;
-    background-color: #eef5fa;
-    width: 90%;
-    margin-bottom: 40px;
-    border-radius: 15px;
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
 }
-.formContact p{
-   font-size: 28px;
-   margin: 2rem;
+
+input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
-.estilosForm{
-    align-self: center;
+
+textarea {
+    resize: none;
+    height: 120px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
     font-size: 18px;
-    display: flex;
-    width: 80%;
-    flex-direction: column;
-}
-.estilosForm input {
+    padding: 12px 20px;
     border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
 }
-.estilosForm label {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+
+button:hover {
+    background-color: #0056b3;
 }
-#correo:active{
-    color: red;
+
+@media (max-width: 480px) {
+    form {
+        width: 90%;
+    }
 }

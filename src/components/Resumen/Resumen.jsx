@@ -54,7 +54,7 @@ export const Resumen = () => {
                     <h2>Experiencia</h2>
                 </div>
                 {experiencia.map((prop, index) => (
-                    <div className={`${styles.tarjeta} ${styles[`tarjetas-${prop.id}`]}`} key={index}>
+                    <div  className={`${styles.tarjeta} ${styles[`tarjetas-${prop.id}`]}`} key={index}>
                         <h3>
                             {prop.nombre} <span>{prop.rol}</span>
                         </h3>
@@ -66,14 +66,13 @@ export const Resumen = () => {
             <div className={styles.contSkills}>
                 <h2>Stack Front</h2>
                 <div className={styles.contLogos}>
-                    {skills.map((prop) => (
-                        <>  
-                            <div className={`${styles.imgCont} ${styles[`logo-${prop.title}`]}`}>
+                    {skills.map((prop,index) => (
+                            <div key={index} className={`${styles.imgCont} ${styles[`logo-${prop.title}`]}`}>
                                 <img src={prop.logo} alt={prop.title} />
                             </div>
                             
 
-                        </>
+                        
                     ))}
                 </div>
             </div>

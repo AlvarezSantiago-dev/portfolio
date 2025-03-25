@@ -11,13 +11,14 @@ import { FaRegFileLines, FaRegUser, FaBriefcase } from "react-icons/fa6";
 import { About } from '../About/About.jsx';
 import { Resumen } from '../Resumen/Resumen.jsx';
 import { Contact } from '../Contact/Contact.jsx';
+import { Works } from '../Works/Works.jsx';
 
 
 //contenido de los tabs
 const tabs = [
     { id: 0, title: 'Sobre Mi', content: <About />, icon: <FaRegUser /> },
     { id: 1, title: 'Resumen', content: <Resumen />, icon: <FaRegFileLines /> },
-    { id: 2, title: 'Trabajos', content: "3", icon: <FaBriefcase /> },
+    { id: 2, title: 'Trabajos', content: <Works/> , icon: <FaBriefcase /> },
     { id: 3, title: 'Contacto', content: <Contact />, icon: <FaAddressBook /> },
 ];
 
