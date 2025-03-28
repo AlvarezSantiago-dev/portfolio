@@ -22,7 +22,7 @@ const skills = [
     { title: "Git", logo: "../../../public/skills/git.svg" },
     { title: "JavaScript", logo: "../../../public/skills/javascript.svg" },
     { title: "React", logo: "../../../public/skills/react.svg" },
-    { title: "Vite", logo: "../../../public/skills/vite.svg" }
+    { title: "Vite", logo: "../../../public/vite.svg" }
 ];
 export const Resumen = () => {
     return (
