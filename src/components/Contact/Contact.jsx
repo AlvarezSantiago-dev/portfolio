@@ -63,14 +63,17 @@ export const Contact = () => {
 
     return (
         <div className={styles.contact}>
-            <h1>Contacto</h1>
-            <form  className={styles.formulario} onSubmit={handleSubmit}>
+            <div className={styles.contactContainer}>
+                <h1>Contacto</h1>
+                <form  className={styles.formulario} onSubmit={handleSubmit}>
                 
                 <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Tu Nombre" required />
                 <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Tu Email" required />
                 <textarea name="message" value={formData.message} onChange={handleChange} placeholder="Tu Mensaje" required />
                 <button className={styles.btnenviar} type="submit">Enviar</button>
             </form>
+            </div>
+            
         </div>
     );
 };

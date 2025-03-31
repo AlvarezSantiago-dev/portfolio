@@ -25,7 +25,7 @@ export const AsideMenu = () => {
 
             <img className={styles.photo} src="./img/posible-perfil.jpg" alt="" />
 
-            <h4 className={styles.name}>Santiago Ezequiel Alvarez</h4>
+            <h4 className={styles.name}>Santiago Alvarez</h4>
             <div>
                 <p className={styles.occupation}>Desarrollador Frontend</p>
             </div>

@@ -36,7 +36,7 @@ const proyectos = [
         language: ["wordpress", "js", "css"],
         description: "Woocomerce es un proyecto freelance en el que trabaje en la parte de frontend, utilizando WordPress y Woocomerce para crear una tienda online. El proyecto actualmente esta en producción. En este proyecto no trabaje en el diseño, solo pase el diseño a código.",
         image: "/woocomerce.png", // Si está en public/
-        preview: "",
+        preview: "https://centrocristianovidatucasa.com.ar/",
         repositorio: ""
     },
     {
@@ -67,6 +67,7 @@ export const Works = () => {
 
     return (
         <div className={styles.container}>
+            <div className={styles.contenidoWorks}>
             <h1>Portafolio</h1>
             <div className={styles.contProyectos}>
                 {proyectos.map((proyecto) => (
@@ -109,6 +110,9 @@ export const Works = () => {
                     </div>
                 </div>
             )}
+            </div>
+            
+            
         </div>
     );
 };

@@ -59,7 +59,7 @@ export const Resumen = () => {
             <div className={styles.contTarjetas}>
                 <div className={styles.title}>
                     <i><FaGraduationCap /></i>
-                    <h2>Educacion</h2>
+                    <h2>Educación</h2>
                 </div>
 
                 {educacion.map((prop, index) => (

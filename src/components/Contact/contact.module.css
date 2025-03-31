@@ -10,9 +10,19 @@
     
 }
 .contact h1 {
-    font-size: 24px;
-    margin-bottom: 1rem;
-}
+        font-weight: 700;
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+    .contactContainer{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+
+    }
+
 .formulario {
     display: flex;
     flex-direction: column;
