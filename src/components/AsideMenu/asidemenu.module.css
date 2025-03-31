@@ -10,7 +10,6 @@
     margin-top: 110px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     
-
 }
 .name {
     font-size: 22px;
@@ -65,10 +64,27 @@
 .mainredes li a i{
     font-size: 25px;
     text-align: center;
+    transition: all 0.5s ease-in-out;
+   
 }
 
 .igIcon{
     color: rgb(225, 42, 114);
+    
+
+}
+.lnIcon:hover{
+    background-color: #1c9cea;
+    color: white;
+
+}
+.gtIcon:hover{
+    background-color: #000;
+    color: white;
+}
+.igIcon:hover{
+    background-color: rgb(225, 42, 114);
+    color: white;
 
 }
 .lnIcon{
@@ -143,43 +159,49 @@
 
 .divText p {
     font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #44566c;
+    
+}
+.divText a {
+    text-decoration: none;
     
 }
 
+
 .download {
-    margin-top: 20px;
-    width: 240px;
-    align-self: center;
-    background-color: blue;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #007bff; /* Azul vibrante */
     color: white;
-    padding: 20px;
-    border-radius: 15px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin-top: 20px;
 }
 
 .download i {
-    font-size: 1.2rem;
-    padding: 5px;
+    font-size: 16px;
 }
 
 .download a {
-    text-decoration: none;
     color: white;
-    font-size: 1.2rem;
+    text-decoration: none;
 }
 
 .download:hover {
-    background-color: white;
-    color: black;
-    border: solid 1px blue;
-    border-radius: 15px;
+    background-color: #0056b3; /* Azul más oscuro */
+    transform: scale(1.05);
 }
 
-.download i:hover {
-    color: black;
-}
-
-.download a:hover {
-    color: black;
+.download:active {
+    transform: scale(0.98);
 }
 
 @media (min-width: 1200px) {

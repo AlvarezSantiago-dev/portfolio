@@ -1,16 +1,22 @@
 .container {
-    text-align: center;
-    padding: 20px;
+    
+    padding: 40px;
     background-color: white;
     border-radius: 15px;
-    height: 800px;
+    width: 100%;
 }
-
+.container h1 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 3rem;
+}
 .contProyectos {
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    margin-top: 40px;
 }
 
 .card {
@@ -21,6 +27,7 @@
     padding: 15px;
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
+    
 }
 
 .card:hover {

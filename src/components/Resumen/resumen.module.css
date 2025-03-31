@@ -69,6 +69,10 @@
     font-size: 16px;
     color: #44566c;
 }
+.tarjeta p a {
+    text-decoration: none;
+    color: #4980d3;
+}
 
 .tarjetas-0 {
     background-color: #fff4f4;

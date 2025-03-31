@@ -1,11 +1,12 @@
 .mainapp {
     width: 85%;
+    margin: 0 auto;
+    min-width: 385px;
 }
 
 @media (min-width: 1200px) {
     .mainapp {
-        width: 95%;
-        
+        width: 90%;
         display: flex;
         justify-content: space-around;
         gap: 10px;

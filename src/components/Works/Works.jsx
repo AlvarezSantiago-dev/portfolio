@@ -6,6 +6,8 @@ const logos = {
     vite: "./skills/vite.svg",
     js: "./skills/javascript.svg",
     css: "./skills/css.svg",
+    firebase: "./skills/firebase.svg",
+    wordpress:"./skills/wordpress.svg"
 };
 
 // Asegurar que language sea un array en todos los proyectos
@@ -30,9 +32,19 @@ const proyectos = [
     },
     {
         id: 2,
+        title: "Woocomerce - Proyecto Freelance",
+        language: ["wordpress", "js", "css"],
+        description: "Woocomerce es un proyecto freelance en el que trabaje en la parte de frontend, utilizando WordPress y Woocomerce para crear una tienda online. El proyecto actualmente esta en producción. En este proyecto no trabaje en el diseño, solo pase el diseño a código.",
+        image: "/woocomerce.png", // Si está en public/
+        preview: "",
+        repositorio: ""
+    },
+    {
+        id: 3,
         title: "Ecommerce",
         language: ["vite", "js", "css", "firebase"],
-        description: "Ecommerce en desarrollo.",
+        description: "Ecommerce en desarrollo. Es un proyecto personal que estoy desarrollando. La idea es crear una tienda online de productos digitales. En este proyecto estoy utilizando Firebase como base de datos y Vite como herramienta de desarrollo.",
+        
         image: "/construccion.png", // Si está en public/
         preview: "",
         repositorio: ""
@@ -88,7 +100,7 @@ export const Works = () => {
                         </div>
                         <div className={styles.contBtns}>
                             {selectedProject.preview && (
-                                <a href={selectedProject.preview} className={styles.btn} target="_blank" rel="noopener noreferrer">Ver demo</a>
+                                <a href={selectedProject.preview} className={styles.btn} target='_blank' rel="noopener noreferrer">Ver demo</a>
                             )}
                             {selectedProject.repositorio && (
                                 <a href={selectedProject.repositorio} className={styles.btn} target="_blank" rel="noopener noreferrer">Ver código</a>
