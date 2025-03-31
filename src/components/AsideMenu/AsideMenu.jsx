@@ -18,7 +18,7 @@ return (
 //aside
     <aside className={styles.asidestyles}>
         
-        <img className={styles.photo} src="../../../public/perfile-photo/posible-perfil.jpg" alt="" />
+        <img className={styles.photo} src="./img/posible-perfil.jpg" alt="" />
         
         <h4 className={styles.name}>Santiago Ezequiel Alvarez</h4>
         <div>

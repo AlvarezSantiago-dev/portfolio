@@ -15,14 +15,14 @@ const experiencia = [
 ]
 
 const skills = [
-    { title: "Html", logo: "../../../public/skills/html5.svg" },
-    { title: "Css", logo: "../../../public/skills/css.svg" },
-    { title: "TailwindCSS", logo: "../../../public/skills/tailwindcss.svg" },
-    { title: "Sass", logo: "../../../public/skills/sass.svg" },
-    { title: "Git", logo: "../../../public/skills/git.svg" },
-    { title: "JavaScript", logo: "../../../public/skills/javascript.svg" },
-    { title: "React", logo: "../../../public/skills/react.svg" },
-    { title: "Vite", logo: "../../../public/vite.svg" }
+    { title: "Html", logo: "./skills/html5.svg" },
+    { title: "Css", logo: "./skills/css.svg" },
+    { title: "TailwindCSS", logo: "./skills/tailwindcss.svg" },
+    { title: "Sass", logo: "./skills/sass.svg" },
+    { title: "Git", logo: "./skills/git.svg" },
+    { title: "JavaScript", logo: "./skills/javascript.svg" },
+    { title: "React", logo: "./skills/react.svg" },
+    { title: "Vite", logo: "./skills/vite.svg" }
 ];
 export const Resumen = () => {
     return (

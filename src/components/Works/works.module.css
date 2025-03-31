@@ -56,6 +56,13 @@
 .card:nth-child(4){
     background-color: #eef5fa;
 }
+
+.lenguajes{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
 /* Modal */
 .modal {
     position: fixed;
